@@ -1,120 +1,120 @@
 @charset "UTF-8";
 
-.list-item {
-  width: 65px;
-  padding: 10px;
-  margin: 10px;
-  color: #fff;
-  background: #00bbdd;
-  text-align: center;
-}
-
-.row {
+.d--flex--row {
   display: flex;
   flex-direction: row;
 }
 
-.row-reverse {
+.d--flex--row--reverse {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.column {
+.d--flex--column {
   display: flex;
   flex-direction: column;
 }
 
-.column-reverse {
+.d--flex--column--reverse {
   display: flex;
   flex-direction: column-reverse;
 }
 
-.nowrap {
+.d--flex--nowrap {
   display: flex;
   flex-wrap: nowrap;
 }
 
-.wrap {
+.d--flex--wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
-.wrap-reverse {
+.d--flex--wrap--reverse {
   display: flex;
   flex-wrap: wrap-reverse;
 }
 
-.flex-start {
+.d--flex--start {
   display: flex;
   justify-content: flex-start;
 }
 
-.flex-end {
+.d--flex--end {
   display: flex;
   justify-content: flex-end;
 }
 
-.center {
+.d--flex--center {
   display: flex;
   justify-content: center;
 }
 
-.space-between {
+.d--flex--between {
   display: flex;
   justify-content: space-between;
 }
 
-.space-around {
+.d--flex--around {
   display: flex;
   justify-content: space-around;
 }
 
-.grid-item {
-  padding: 10px;
-  color: #fff;
-  background: #0bd;
-}
-
-.grid {
+.d--grid--columns {
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  grid-gap: 10px;
-  margin-bottom: 20px;
+  gap: 10px;
 }
 
-.grid-fr {
+.d--grid--fr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  margin-bottom: 20px;
+  gap: 10px;
+  margin-top: 20px;
 }
 
-.grid-row {
+.d--grid--rows {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
   grid-template-rows: 200px 200px;
-  grid-gap: 10px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.grid-layout {
+.d--grid--wrapper {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
-  grid-gap: 10px;
+  gap: 10px;
+  margin-top: 20px;
 }
 
-.red {
-  background: #dd0700;
+.flex--item {
+  width: 65px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background: #00bbdd;
+  color: #fff;
+}
+
+.grid--item {
+  padding: 10px;
+  background: #00bbdd;
+  color: #fff;
+}
+
+.red--box {
   grid-column: 1/3;
+  background: #dd0700;
 }
 
-.green {
-  background: #0bdd00;
+.green--box {
   grid-row: 2/4;
+  background: #0bdd00;
 }
 
-.yellow {
-  background: #d9dd00;
+.yellow--box{
   grid-column: 2/4;
+  background: #d9dd00;
 }

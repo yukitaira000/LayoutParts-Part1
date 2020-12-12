@@ -1,49 +1,49 @@
 @charset "UTF-8";
 
-.redbox {
-  width: 300px;
-  background: #ff7b7b;
-}
-
-.bluebox {
-  background: #7b86ff;
-}
-
-.yellowbox {
-  width: 300px;
-  background: #fff27f;
-}
-
-.table {
-  width: 100%;
+.sub--box {
   display: table;
-  margin-bottom: 50px;
+  width: 100%;
+  margin-top: 50px;
 }
 
-.table-cell {
+.main--area .sub--box:first-child {
+  margin-top: 0;
+}
+
+.common--box {
   display: table-cell;
   padding: 20px;
   text-align: center;
 }
 
-.greenbox {
+.red--box {
+  width: 300px;
+  background: #ff7b7b;
+}
+
+.blue--box {
+  background: #7b86ff;
+}
+
+.yellow--box {
+  width: 300px;
+  background: #fff27b;
+}
+
+.green--box {
   background: #7bff91;
 }
 
-.pinkbox {
+.pink--box {
   width: 400px;
   background: #ff7be2;
 }
 
-.orangebox {
+.orange--box {
   width: 400px;
   background: #ffc67b;
 }
 
-.skybluebox {
+.light--blue--box {
   background: #7bf2ff;
-}
-
-.main--area .table:last-child {
-  margin-bottom: 0;
 }

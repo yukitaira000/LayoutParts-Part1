@@ -1,21 +1,18 @@
 @charset "UTF-8";
 /* 回答はここから */
 
-.card-text {
+.list {
   display: flex;
+  justify-content: center;
 }
 
-.card-text li {
-  width: 200px;
-  background: #d2b48a;
-  border-radius: 13px;
-  box-shadow: 0 0 0 6px #655;
-  outline: 10px solid #655;
+.list--card {
   list-style: none;
+  width: 200px;
+  margin: 30px;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
   padding: 10px;
-  margin-right: 60px;
-}
-
-.card-text li:last-child {
-  margin-right: none;
+  background: #d2b48a;
 }

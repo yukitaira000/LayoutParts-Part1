@@ -3,31 +3,33 @@
 .cell--table {
   table-layout: fixed;
   width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
-th, td {
-  padding: 10px;
+.cell--table th {
+  background-color: #319c4a;
   font-size: 18px;
-  border: 1px solid #000;
-  text-align: center;
-}
-
-th {
-  background: #319c4a;
   line-height: 26px;
 }
 
-tr {
-  background: #d5ffe7;
+.cell--table th, .cell--table td{
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.cell--table td {
+  text-align: center;
+  font-size: 16px;
   line-height: 22px;
 }
 
-.cell--table tr:nth-child(odd) td {
-  background-color: #bcbcbc;
+.cell--table tr {
+  background: #d5ffc7;
 }
 
-.cell--table tr:last-child {
-  border-top: 1px double rgb(255, 255, 255);
+.cell--table tr:nth-child(even) {
+  background: #bcbcbc;
+}
+
+.cell--table tbody tr:last-child {
+  border-top: 1px double #ffffff;
 }

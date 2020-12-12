@@ -1,84 +1,67 @@
 @charset "UTF-8";
 /* 回答はここから */
-
-.text {
+.inline--box {
+  display: inline-block;
+  width: 200px;
+  padding: 20px 0;
   font-size: 16px;
-  background: #a4b3e9;
+  background-color: #fff;
+}
+
+.align--box {
+  text-align: center;
+}
+
+.align--text {
   display: inline-block;
   padding: 10px;
-  text-align: center;
-}
-
-.text-align {
-  background: #fff;
-  text-align: center;
-  width: 200px;
-  padding: 20px 0;
-}
-
-.margin {
-  background: #fff;
-  width: 200px;
-  padding: 20px 0;
-  margin: 0 auto;
-}
-
-.margin-text {
-  font-size: 16px;
   background: #a4b3e9;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  width: 90px;
-  margin: 0 auto;
 }
 
-.table {
+.margin--text {
+  text-align: center;
+  margin: 0 auto;
+  width: 90px;
+  padding: 10px;
+  background: #a4b3e9;
+}
+
+.d--table {
   display: table;
 }
 
-.table-text {
+.d--cell {
+  text-align: center;
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
 }
 
-.table-text p {
-  background: #fff;
+.table--text {
   padding: 10px;
+  background-color: #fff;
   display: inline-block;
-  font-size: 16px;
 }
 
-.flex {
+.d--flex {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.flex-text p {
+.flex--text {
   padding: 10px;
-  background: #fff;
-  font-size: 16px;
+  background-color: #fff;
 }
 
-.position-text p{
-  font-size: 16px;
-  background: #a4b3e9;
-  padding: 10px;
-  text-align: center;
-  display: inline-block;
-}
-
-.container {
+.p--relative {
   position: relative;
 }
 
-.position-text {
+.p--absolute {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background: #a4b3e9;
 }
-
-
